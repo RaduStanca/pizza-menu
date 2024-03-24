@@ -8,3 +8,22 @@
   aspect-ratio: 1;
   align-self: start;
 }
+
+.pizza div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+}
+
+.pizza p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: auto;
+}
+
+.pizza span {
+  display: block;
+  font-size: 1.6rem;
+}
