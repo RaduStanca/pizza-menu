@@ -2,14 +2,14 @@ import "./Pizza.css";
 
 const Pizza = (props) => {
   return (
-    <div className="pizza">
-      <img src={props.photoName} alt={props.name}></img>
+    <li className="pizza">
+      <img src={props.pizzaObj.photoName} alt={props.pizzaObj.name}></img>
       <div>
-        <h2>{props.name}</h2>
-        <p>{props.ingredients}</p>
-        <span>{props.price}</span>
+        <h2>{props.pizzaObj.name}</h2>
+        <p>{props.pizzaObj.ingredients}</p>
+        <span>{props.pizzaObj.price}</span>
       </div>
-    </div>
+    </li>
   );
 };
 
