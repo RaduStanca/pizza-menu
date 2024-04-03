@@ -1,6 +1,6 @@
 import "./Header.css";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <div className="header">
       <h1>Fast React Pizza co.</h1>
