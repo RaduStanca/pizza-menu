@@ -1,10 +1,11 @@
-/* .header {
+.header {
   align-self: stretch;
 }
+
 .header h1 {
-  Non-accessible color 
+  /* Non-accessible color */
   color: #edc84b;
-  : #af8602; 
+  /* color: #af8602; */
 
   text-transform: uppercase;
   text-align: center;
@@ -14,9 +15,9 @@
   position: relative;
   width: 100%;
   display: block;
-} */
+}
 
-/* .header h1::before,
+.header h1::before,
 .header h1::after {
   display: block;
   content: "";
@@ -25,12 +26,12 @@
   background-color: #edc84b;
   position: absolute;
   top: calc(50% - 1px);
-} */
+}
 
-/* .header h1::before {
+.header h1::before {
   left: 0;
 }
 
 .header h1::after {
   right: 0;
-} */
+}
