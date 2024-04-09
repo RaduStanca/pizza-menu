@@ -4,6 +4,10 @@
   padding: 20px;
 }
 
+.footer p {
+  text-align: center;
+}
+
 .btn {
   color: inherit;
   font-family: inherit;

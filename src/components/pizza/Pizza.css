@@ -27,3 +27,12 @@
   display: block;
   font-size: 1.6rem;
 }
+
+.pizza.sold-out {
+  color: gray;
+}
+
+.pizza.sold-out img {
+  filter: grayscale();
+  opacity: 0.8;
+}
